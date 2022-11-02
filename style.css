@@ -1,0 +1,132 @@
+body {
+  background: black;
+  color: gray;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 1.1em;
+}
+p,
+h1,
+h2 {
+  max-width: 80vw;
+  margin: 0vw 5vw;
+}
+#work-demo img {
+  border: solid;
+  width: 100%;
+}
+
+#company-logos img {
+  margin-right: 1vw;
+}
+
+section,
+header,
+nav {
+  margin-top: 4vh;
+}
+
+button {
+  background: yellow;
+  padding: 1em;
+}
+
+h1,
+h2 {
+  color: white;
+  line-height: 1.1em;
+  margin-bottom: 2vh;
+}
+
+#work-demo {
+  margin: 5vw;
+  display: flex;
+  justify-content: space-between;
+
+  gap: 2em;
+}
+
+#work-demo div {
+  height: 100%;
+}
+
+#work-demo h2 {
+  margin: 1vh 0;
+}
+
+#work-demo p {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 60vw;
+}
+
+nav {
+  display: flex;
+  gap: 5em;
+  margin: 5vw;
+}
+
+nav button {
+  position: absolute;
+  right: 5vw;
+}
+
+nav a {
+  margin-right: 2vw;
+  text-decoration: none;
+  color: gray;
+}
+
+#name-upper-left {
+  font-size: 1.5em;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#company-logos {
+  margin-left: 5vw;
+}
+
+#bio {
+  background: gray;
+  color: darkgrey;
+  column-count: 2;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#contact-me {
+  width: 50vw;
+}
+
+#contact-me button {
+  margin: 2vw 2vw 5vw 5vw;
+}
+
+@media (max-width: 850px) {
+  nav a {
+    display: block;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: inline;
+    position: absolute;
+    right: 5vw;
+  }
+
+  #nav-links {
+    position: absolute;
+    right: 4vw;
+    top: 8vw;
+    visibility: hidden;
+  }
+}
